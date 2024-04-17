@@ -38,11 +38,11 @@ export const turnoComputadora = ( puntosMinimos, puntosHTML, divCartasComputador
         if ( puntosComputadora === puntosMinimos ) {
             alert( 'Nadie gana :(' );
         } else if ( puntosMinimos > 21 ) {
-            alert( 'Computadora gana' )
+            alert( 'La computadora es el ganador, suerte para la proxima' )
         } else if ( puntosComputadora > 21 ) {
-            alert( 'Jugador Gana' );
+            alert( 'Uested es el ganador, que krack' );
         } else {
-            alert( 'Computadora Gana' )
+            alert( 'La computadora es el ganador, suerte para la proxima' )
         }
     }, 100 );
 }
